@@ -75,9 +75,9 @@ async def addcard(
 
 
 CHEMISTRY_IMAGES_URLS = {
-    'green': "https://cdn.discordapp.com/attachments/1274834660504899624/1275348784578166875/green.png?ex=66c5909d&is=66c43f1d&hm=76db963d5b7e084357fb8889627e3421913ae2f2b78ec627bd7a20991412ea17&",
-    'orange': "https://cdn.discordapp.com/attachments/1274834660504899624/1275348784351678464/yellow.png?ex=66c5909d&is=66c43f1d&hm=9db469258a31021c82eaedc025a49384b8309fe88ddd639d0aa09699b82630f8&",
-    'red': "https://cdn.discordapp.com/attachments/1274834660504899624/1275348784800600146/red.png?ex=66c5909d&is=66c43f1d&hm=895ef4e6ec4db5f16fcde2927a29b9d0ca93162efc3260deba9c5f4037619c8d&"
+    'green': "https://cdn.discordapp.com/attachments/1275351829659516938/1275768324869066752/green.png?ex=66c71757&is=66c5c5d7&hm=725588e1d8423ee61faa0b44954b78591b0e072042f7f80ed6c0640f3aabd384&",
+    'orange': "https://cdn.discordapp.com/attachments/1275351829659516938/1275768324625793069/yellow.png?ex=66c71757&is=66c5c5d7&hm=38b64c7e2ac201c62bb1d3e1b013d701aed5be408525617c0d692cbf3cf2a9bf&",
+    'red': "https://cdn.discordapp.com/attachments/1275351829659516938/1275768325162536972/red.png?ex=66c71757&is=66c5c5d7&hm=c67707eb98254438b1ab9e38f2e2510832f3c0ea5f0586c0b1984e3716a57496&"
 }
 
 @client.slash_command(name="lineup", description="View your card collection in a lineup image.", guild_ids=[guild_id])
