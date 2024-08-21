@@ -28,7 +28,7 @@ logging.basicConfig(
 )
 ADMIN_USER_IDS = [1211365819054030960]  
 intents = nextcord.Intents.all()
-guild_id = 1014297530990862398
+guild_id = 1266153230300090450
 client = commands.Bot(command_prefix="?", intents=intents, help_command=None)
 DATABASE_PATH = "soccer_cards.db"
 
