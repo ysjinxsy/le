@@ -133,7 +133,7 @@ async def lineup(interaction: nextcord.Interaction):
                 return
 
             lineup_width, lineup_height = 892, 725
-            card_width, card_height = 110, 155
+            card_width, card_height = 123, 174
 
             lineup_image = background_image.resize((lineup_width, lineup_height))
             draw = ImageDraw.Draw(lineup_image)
